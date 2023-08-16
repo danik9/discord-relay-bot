@@ -6,7 +6,7 @@
 
 
 ## Description
-A python program to relay messages from one discord server to another server using bot accounts. This project is basically almost all heavlly writted by chatGPT A.I! with me tweaking a couple things here and there!
+A python program to relay messages from one discord server to another server using bot accounts. This project is basically almost all heavily writted by chatGPT A.I! with me tweaking a couple things here and there!
 
 Inspired by [joshmalek/discord-relay](https://github.com/joshmalek/discord-relay).
 
@@ -43,7 +43,7 @@ However, there's a catch: you can't run the listener selfbot script and the rela
    ```
 6. Repeat the process for the relay bot (run `pip install discord.py` when you start the virtual environment session).
 
-If your having trouble just google `venv pyhton how to`
+If your having trouble just google `venv python how to`
 
 
 
