@@ -1,0 +1,27 @@
+# Use an official Python runtime as the base image
+FROM python:3.8
+
+# Install supervisor and tmux
+RUN apt-get update && apt-get install -y supervisor tmux
+
+# Set the working directory in the container
+WORKDIR /app
+
+# Copy your Python scripts
+COPY relay1.py /app/
+COPY relay2.py /app/
+COPY relay3.py /app/
+COPY relay4.py /app/
+COPY relay5.py /app/
+COPY relay6.py /app/
+COPY relay7.py /app/
+COPY relay8.py /app/
+
+# Install discord.py
+RUN pip install discord.py
+
+# Copy the supervisord configuration file
+COPY supervisord.conf /etc/supervisor/conf.d/
+
+# Start supervisord when the container launches
+CMD ["supervisord", "-c", "/etc/supervisor/supervisord.conf"]
