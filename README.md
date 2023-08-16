@@ -2,7 +2,6 @@
 
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-![GitHub release (latest by date)](https://img.shields.io/github/v/release/danik9/discord-relay-bot)
 ![GitHub issues](https://img.shields.io/github/issues/danik9/discord-relay-bot)
 
 
