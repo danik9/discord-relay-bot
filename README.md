@@ -17,6 +17,8 @@ This program is useful when you're part of a paid Discord server that charges fo
 **Note:** This program requires a minimum of **two distinct Discord accounts**. The repository includes a version with one listener account and **8** relayer accounts. While I'm not an expert coder by all means, the code is simple enough to scale.
 
 ## How it works
+The Listener selfbot listens to messages in specific source channels and relays them to corresponding relay bots through direct messages.
+
 The listener selfbot script utilizes the ***discord.py-self*** API wrapper (a fork of the popular discord.py for user accounts). During the initial stages of development, I discovered that the regular discord.py API wrapper is incompatible with user tokens.
 
 In contrast, the relay bots utilize the official ***discord.py*** API wrapper, as they are genuine application bots (https://discord.com/developers/applications).
