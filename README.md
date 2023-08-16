@@ -1,5 +1,11 @@
 # discord-relay-bot
 
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/danik9/discord-relay-bot)
+![GitHub issues](https://img.shields.io/github/issues/danik9/discord-relay-bot)
+
+
 ## Description
 A python program to relay messages from one discord server to another server using bot accounts. This project is basically almost all heavlly writted by chatGPT A.I! with me tweaking a couple things here and there!
 
